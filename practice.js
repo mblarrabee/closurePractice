@@ -83,13 +83,13 @@ function runNTimes(passedFunc, N){
     for(var i = N; i > 0; i--){
         passedFunc();
     };
-    console.log("The function has already been executed " + N + " times.");
+    console.log("STAHHP!!  The function has already been executed " + N + " times.");
   };
 };
 
-var runIt = runNTimes(simpleFunc, 33);
+var runSimpleFunc = runNTimes(simpleFunc, 33);
 
-runIt(simpleFunc);
+runSimpleFunc(simpleFunc);
 
 
 
